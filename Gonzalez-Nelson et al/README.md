@@ -11,4 +11,4 @@ It has been used and tested on Windows 10 and macOS Mojave.
 
 [Rotationangle_singlecell.py](./Rotationangle_singlecell.py) can be used for a single unit cell MD simulation and [Rotationangle_supercell.py](./Rotationangle_supercell.py) is used for 211 supercell MD simulation.
 
-A demo ipython notebook file Demo rotation angle single cell.ipynb is provided, which returns the rotation angle in an array for 100 timesteps from input MD trajectory file in input_demo directory (singlecell_100.xyz). These arrays can be saved into .dat files for further plotting and analysis. Expected output .dat files are also placed in (input_demo/expected_output folder)
+A demo ipython notebook file [Demo rotation angle single cell.ipynb](./DemoRotationAngleSingleCell.ipynb) is provided, which returns the rotation angle in an array for 100 timesteps from input MD trajectory file in input_demo directory (singlecell_100.xyz). These arrays can be saved into .dat files for further plotting and analysis. Expected output .dat files are also placed in (input_demo/expected_output folder)
