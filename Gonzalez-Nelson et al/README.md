@@ -4,16 +4,16 @@ Calculating the rotation angle between the benzene ring and reference plane in N
 
 This python code uses CP2K trajectory file (.xyz), cell parameters  and number of atoms in unit cell of system being studied (in this case NO2-MIL-53) as input to calculate the rotation angle of the nitro-functionalized linker in an AIMD simulation.
 
-- System requirements
+**- System requirements**
   - Operating systems: Windows 7 or later, macOS, and Linux
   - Python 3.X version installed. 
 It has been used and tested on Windows 10 and macOS Mojave.
 
-- Installation:
+**- Installation**
   - Python: Latest version of python3.X can be downloaded and installed from https://www.python.org/downloads/
   - Typical installation time on a normal desktop is around 10-12 minutes.
   
-- Instructions
+**- Instructions**
   - [Rotationangle_singlecell.py](./Rotationangle_singlecell.py) can be used for a single unit cell MD simulation
   - [Rotationangle_supercell.py](./Rotationangle_supercell.py) can be used for 211 supercell MD simulation.
 
