@@ -10,9 +10,12 @@ This python code uses CP2K trajectory file (.xyz), cell parameters  and number o
 It has been used and tested on Windows 10 and macOS Mojave.
 
 **- Installation**
-  - Python: Latest version of python3.X can be downloaded and installed from https://www.python.org/downloads/
-  - Typical installation time on a normal desktop is around 10-12 minutes.
-  
+  - Python 
+    - Latest version of python3.X can be downloaded and installed from https://www.python.org/downloads/
+    - Typical installation time on a normal desktop is around 10-12 minutes.
+  - Jupyter Notebook
+    - Installation steps are given in this url https://jupyter.readthedocs.io/en/latest/install.html
+    
 **- Instructions**
   - [Rotationangle_singlecell.py](./Rotationangle_singlecell.py) can be used for a single unit cell MD simulation
   - [Rotationangle_supercell.py](./Rotationangle_supercell.py) can be used for 211 supercell MD simulation.
