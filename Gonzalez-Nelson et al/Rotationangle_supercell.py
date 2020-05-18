@@ -176,8 +176,8 @@ def angle_calculate(ring_coord,ref_plane,req_coord):
     normal = np.transpose(svd [0]) [2] # Normal vector of the plane of benzene carbons
     ring_coord=ring_coord.T
     updir=np.cross(req_coord[0,:],req_coord[1,:])
-    test_direction=np.dot(updir,normal)
-    dir_correction=test_direction/np.absolute(test_direction) # Consistent definition of ring normal direction
+    test_direction=np.dot(updir,normal) # Consistent definition of ring normal direction
+    dir_correction=test_direction/np.absolute(test_direction) 
     normal_corrected=normal*dir_correction # This normal is  used to calculate the rotation angle
     ref_plane = ref_plane / np.linalg.norm(ref_plane)
     dot=np.dot(normal_corrected,ref_plane) # Dot product gives the angle between the reference planes and ring plane
