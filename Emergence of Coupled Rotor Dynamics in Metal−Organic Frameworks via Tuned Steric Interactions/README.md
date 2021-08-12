@@ -1,4 +1,4 @@
-## Emergence of Coupled Rotor Dynamics in Metal−Organic Frameworks via Tuned Steric Interactions
+## Emergence of Coupled Rotor Dynamics in Metal−Organic Frameworks via Tuned Steric Interactions(10.1021/jacs.1c03630)
 
 Calculating the rotation angle between the benzene ring and reference plane in NO2-MIL-53 for CP2K trajectory file (.xyz)
 
